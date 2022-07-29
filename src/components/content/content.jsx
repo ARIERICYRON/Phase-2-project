@@ -14,23 +14,6 @@ function Content({ types }) {
 
 const Contentsection = ({ type }) => (
   <div className="content-section">
-    <p className="content-para">
-      Our
-      {' '}
-      {type}
-      {' '}
-      Service
-    </p>
-    <br />
-    <p>
-      Top 100 Television Movies. Best of Rotten Tomatoes.
-      <br />
-      {' '}
-      Movies with 40 or more critic reviews vie for their place in history at Rotten Tomatoes.
-      {' '}
-      <br />
-      Eligible movies are ...
-    </p>
   </div>
 
 );

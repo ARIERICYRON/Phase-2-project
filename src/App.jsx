@@ -20,6 +20,7 @@ const Home = () => (
 const Contact = () => (
   <div className="contact">
     <h1>CONTACT US </h1>
+    
   </div>
 );
 
