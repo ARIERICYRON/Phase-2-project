@@ -2,7 +2,7 @@
   "images": [
     {
       "id": 1,
-      "image": "'../../image'"
+      "image": "https://en.wikipedia.org/wiki/Main_Page#/media/File:Aerial_view_of_Apollo_4_rollout.jpg"
     }
   ]
 }
