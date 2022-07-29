@@ -5,7 +5,7 @@ import Navbar from './components/navbar/navbar';
 import Banner from './components/banner/banner';
 import Content from './components/content/content';
 import Statecontain from './components/services/services';
-import Toggles from './components/gallery/gallery';
+import Gallery from './components/gallery/gallery';
 
 const Home = () => (
   <div className="site">
@@ -36,13 +36,6 @@ const services = () => (
   </div>
 );
 
-const Gallery = () => (
-  <div className="toggle">
-    <title>Task Page</title>
-    <Toggles />
-  </div>
-);
-
 function App() {
   return (
 
@@ -53,7 +46,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/about" component={About} />
         <Route exact path="/services" component={services} />
-        <Route exact path="/toggle" component={Gallery} />
+        <Route exact path="/gallery" component={Gallery} />
       </Switch>
     </BrowserRouter>
 

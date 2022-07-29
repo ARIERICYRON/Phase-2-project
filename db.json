@@ -2,15 +2,8 @@
   "images": [
     {
       "id": 1,
-      "image": "https://en.wikipedia.org/wiki/Main_Page#/media/File:Aerial_view_of_Apollo_4_rollout.jpg"
-    },
-  {
-    "id": 2,
-    "image": "https://en.wikipedia.org/wiki/Main_Page#/media/File:Eopsaltria_australis_-_Mogo_Campground.jpg"
-  },
-  {
-    "id":3,
-    "image": "https://en.wikipedia.org/wiki/Wedding#/media/File:Edmund_Blair_Leighton_-_signing_the_register.jpg"
-  }
+      "image": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  
   ]
 }

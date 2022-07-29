@@ -1,38 +1,28 @@
-import React from 'react';
+import {useState,useEffect} from 'react'
 import './gallery.css';
 
-class Toggle extends React.Component {
-    state = {
-      showphoto: false,
-    }
+function Gallery() {
+  const [weddingPhotos, setWeddingPhotos] = useState([])
 
-    image = () => (
-      this.setState((photo) => ({ showphoto: !photo.showphoto }))
-    )
+  useEffect(() => {
+    fetch("http://localhost:8004/images")
+    .then(response => response.json())
+    .then((data) => {
+      setWeddingPhotos(data)
+    
+    })
+  }, [])
 
-    render() {
-      const { showphoto } = this.state;
-      return (
-        <div className="toggles_app">
-          <p>Photo</p>
-          <button type="button" onClick={this.image}>
-            {' '}
-            {showphoto ? 'hide photo' : 'show photo'}
-            {' '}
-          </button>
-          {showphoto ? (<img src="https://placeimg.com/800/400/nature" alt="" />) : (<p>Photo Hidden</p>) }
+  const image=weddingPhotos.map((image)=>(
+    <img src={image.image} alt="" key={image.id}/>
+  ))
 
-        </div>
-      );
-    }
-}
-
-function gallery() {
   return (
     <div className="toggle_contain">
-      <Toggle />
+     {image}
     </div>
   );
 }
 
-export default gallery;
+
+export default Gallery;
