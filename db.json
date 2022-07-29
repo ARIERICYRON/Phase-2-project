@@ -6,7 +6,11 @@
     },
   {
     "id": 2,
-    "image":"https://en.wikipedia.org/wiki/Main_Page#/media/File:Eopsaltria_australis_-_Mogo_Campground.jpg"
+    "image": "https://en.wikipedia.org/wiki/Main_Page#/media/File:Eopsaltria_australis_-_Mogo_Campground.jpg"
+  },
+  {
+    "id":3,
+    "image": "https://en.wikipedia.org/wiki/Wedding#/media/File:Edmund_Blair_Leighton_-_signing_the_register.jpg"
   }
   ]
 }
