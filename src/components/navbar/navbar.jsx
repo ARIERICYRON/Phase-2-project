@@ -15,7 +15,7 @@ const navmenudata = [
 
   },
   {
-    menu: 'About',
+    menu: 'About us',
     link: '/about',
 
   },

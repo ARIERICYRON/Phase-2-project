@@ -1,36 +1,24 @@
 import React from 'react';
 import './services.css';
 
-class Counter extends React.Component {
-  state = { count: 0 }
-
-  increment = () => this.setState((prevState) => ({ count: prevState.count + 1 }));
-
-  decrement = () => this.setState((prevState) => ({ count: prevState.count - 1 }));
-
-  render() {
-    const { count } = this.state;
-
-    return (
-
-      <div className="counter">
-        <h3>counting</h3>
-
-        <p className="count">{count}</p>
-        <button className="button1" type="button" onClick={this.increment}>+</button>
-        <button className="button2" type="button" onClick={this.decrement}>-</button>
-      </div>
-    );
-  }
-}
-
 function services() {
   return (
     <div className="state_contain">
-
-      <Counter />
-
+       <div className="services">
+  <div className="row">
+      <div className="panel-left box">
+          <h5>Video Coveragae</h5>
+      </div>
+      <div className="panel-middle box">
+          <h5>Photography </h5>
+      </div>
+      <div className="panel-right box">
+          <h5>Social media management</h5>
+      </div>
+ </div>
+</div>
     </div>
+    
   );
 }
 

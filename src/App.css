@@ -1,21 +1,20 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 
-.content-container {
+.state-container {
     padding: 10%;
     height: 100vh;
-    background-color: black;
     font-size: 64px;
 }
 
 
 .left-panel {
-    float: right;
+    float: r;
     background-color: lightyellow;
     width: 33%;
     padding: 87px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .middle-panel {
     float: none;
@@ -23,6 +22,10 @@
     padding: 87px;
     width: 33%;
     border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .right-panel {
     background-color: lightgreen;
@@ -51,3 +54,21 @@
     padding: 30px 50px
 }
 
+.contactForm{
+    padding: 89px;
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .contactForm input, button, textarea{
+    height: 50px;
+    padding-left: 5px;
+    font-size: 18px;
+  }
+  .contactForm textarea{
+    height: 100px;
+  }
