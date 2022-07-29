@@ -6,7 +6,7 @@
 .content-container {
     padding: 10%;
     height: 100vh;
-    background-color: lightgrey;
+    background-color: black;
     font-size: 64px;
 }
 
@@ -26,6 +26,7 @@
 }
 .right-panel {
     background-color: lightgreen;
+    border-radius: 5px;
     float: inline-start;
     padding: 89px;
     width: 33%;
