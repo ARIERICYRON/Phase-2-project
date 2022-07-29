@@ -23,9 +23,9 @@ const Bgimage = () => (
 const Bgtext = () => (
   <div className="bg-text">
     <p className="small-letter">
-      MENS MOVIE LIBRARY
+      WELCOME TO MECHEO PHOTOGRAPHY
       <br />
-      <h1 className="big-letter">Best Movies</h1>
+      <h1 className="big-letter">BEST SERVICES</h1>
       <br />
       <p className="last-letter">OF ALL TIME</p>
     </p>
