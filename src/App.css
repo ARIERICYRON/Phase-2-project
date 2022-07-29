@@ -24,6 +24,15 @@
     width: 33%;
     border-radius: 5px;
 }
+.right-panel {
+    background-color: lightgreen;
+    float: inline-start;
+    padding: 89px;
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
