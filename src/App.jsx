@@ -20,14 +20,23 @@ const Home = () => (
 const Contact = () => (
   <div className="contact">
     <h1>CONTACT US </h1>
-    
   </div>
 );
 
 const About = () => (
-  <div className="about">
-    <h1 style={{ height: '50px' }}>ABOUT US</h1>
-  </div>
+  <div className="content-container">
+  <div className="row">
+      <div className="left-panel box">
+          Left panel - 50% of width
+      </div>
+      <div className="middle-panel box">
+          Middle panel - 30% of width
+      </div>
+      <div className="right-panel box">
+          Right panel - 20% of width
+      </div>
+ </div>
+</div>
 );
 
 const services = () => (
