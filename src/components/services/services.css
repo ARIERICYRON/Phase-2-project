@@ -10,3 +10,10 @@
     width: 33%;
     padding: 87px;
 }
+.panel-middle {
+    float: none;
+    background-color: lightblue;
+    padding: 87px;
+    width: 33%;
+    border-radius: 5px;
+}
