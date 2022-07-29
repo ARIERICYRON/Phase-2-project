@@ -11,6 +11,13 @@
 }
 
 
+.left-panel {
+    float: right;
+    background-color: lightyellow;
+    width: 33%;
+    padding: 87px;
+}
+
 
 
 .app {
